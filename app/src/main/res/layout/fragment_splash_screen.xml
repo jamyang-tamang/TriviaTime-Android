@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/app_name"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:text="@string/app_name"
+        android:textSize="45sp"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.136" />
+
+    <Button
+        android:id="@+id/change_num_questions_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:backgroundTint="@color/green"
+        android:textColor="@color/black"
+        android:text="@string/change_num_questions_btn_text"
+        app:layout_constraintEnd_toEndOf="@+id/app_name"
+        app:layout_constraintStart_toStartOf="@+id/app_name"
+        app:layout_constraintTop_toBottomOf="@+id/app_name" />
+
+    <Button
+        android:id="@+id/change_difficulty_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/red"
+        android:text="@string/change_difficulty_btn_text"
+        app:layout_constraintEnd_toEndOf="@+id/change_num_questions_btn"
+        app:layout_constraintStart_toStartOf="@+id/change_num_questions_btn"
+        app:layout_constraintTop_toBottomOf="@+id/change_num_questions_btn" />
+
+
+    <Button
+        android:id="@+id/start_btn"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="168dp"
+        android:onClick="onStartButtonClick"
+        android:text="@string/start_btn_text"
+        app:layout_constraintEnd_toEndOf="@+id/change_difficulty_btn"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/change_difficulty_btn"
+        app:layout_constraintTop_toBottomOf="@+id/change_difficulty_btn" />
+
+    <ImageButton
+        android:id="@+id/infoButton"
+        android:backgroundTint="@color/magenta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="28dp"
+        android:background="@color/white"
+        android:contentDescription="@string/infoButtonDescriptor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_help" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/modeSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:background="@color/purple_500"
+        android:text="@string/timedModeLbl"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/change_difficulty_btn"
+        app:layout_constraintStart_toStartOf="@+id/change_difficulty_btn"
+        app:layout_constraintTop_toBottomOf="@+id/change_difficulty_btn" />
+
+<!--    //Scraped attempt at a mute button-->
+    <ImageButton
+        android:id="@+id/audioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/magenta"
+        android:contentDescription="@string/audioDescriptor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/random_diff"
+        android:title="@string/difficulty_rndm"
+        />
+    <item
+        android:title="@string/difficulty_ez"
+        android:id="@+id/easy_diff"/>
+    <item
+        android:title="@string/difficulty_med"
+        android:id="@+id/medium_diff"/>
+    <item
+        android:title="@string/difficulty_hard"
+        android:id="@+id/hard_diff" />
+</menu>

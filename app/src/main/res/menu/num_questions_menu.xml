@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/three_questions"
+        android:title="@string/three"
+        />
+    <item
+        android:title="@string/five"
+        android:id="@+id/five_questions"/>
+    <item
+        android:title="@string/ten"
+        android:id="@+id/ten_questions"/>
+    <item
+        android:title="@string/fifteen"
+        android:id="@+id/fifteen_questions" />
+
+    <item
+        android:title="@string/twenty"
+        android:id="@+id/twenty_questions" />
+</menu>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "151627509657",
+    "project_id": "triviatime-86904",
+    "storage_bucket": "triviatime-86904.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151627509657:android:fb87ed8c4c7661042d2d08",
+        "android_client_info": {
+          "package_name": "com.example.triviatime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151627509657-b04r1ve200bomvc64calqcbuf2m8huoq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.triviatime",
+            "certificate_hash": "31c8f631c9c5e9d950934e6e89e2d79012c43533"
+          }
+        },
+        {
+          "client_id": "151627509657-f2ur9vjnpp35d3s6r1fknkp2enjq2i5v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEOe9uB7-DKdGQzo7tH5dmWF8PAxR8c_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151627509657-f2ur9vjnpp35d3s6r1fknkp2enjq2i5v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

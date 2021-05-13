@@ -1,0 +1,98 @@
+<resources>
+    //SplashScreen Labels
+    <string name="app_name">Trivia Time</string>
+    <string name="change_num_questions_btn_text">Change Num Questions</string>
+    <string name="change_difficulty_btn_text">Change Difficulty of Questions</string>
+    <string name="start_btn_text">Test Yourself</string>
+
+    // Strings of question difficulty menu
+    <string name="difficulty_rndm">Random</string>
+    <string name="difficulty_ez">Easy</string>
+    <string name="difficulty_med">Medium</string>
+    <string name="difficulty_hard">Hard</string>
+
+    // Strings of number of questions menu
+    <string name="three">3</string>
+    <string name="five">5</string>
+    <string name="ten">10</string>
+    <string name="fifteen">15</string>
+    <string name="twenty">20</string>
+
+
+    //Labels
+    <string name="go_to_splash">Home</string>
+    <string name="score_lbl">Your Score: \t </string>
+    <string name="userNamesLabel"><b>Names</b></string>
+    <string name="userScoresLabel"><b>Scores</b></string>
+    <string name="trigger_next_btn">Okay</string>
+    <string name="announce_high_score">You set a new HighScore</string>
+    <string name="enter_name_hint">Enter your name</string>
+    <string name="post_score">Post Score</string>
+
+
+    //Instructions page
+    <string name="tutorial">This is a simple trivia app \n\n
+
+    <b>Regular Mode</b>\n
+    You will be given a number of questions and will be required to answer them.
+    You can adjust the Difficulty of the questions and the number of questions you are asked! \n\n
+
+    <b>Timed Mode</b>\n
+    You will be given 10 seconds to answer a question, of random difficulty.
+    If you answer it correctly you will get another question, else your game is over\n\n
+
+    <b>High Scores</b>*ONLY IN TIMED MODE*\n
+        If you set a high score you can record it forever imprint your legacy on the
+    leaderboard!</string>
+
+    <string name="timedModeLbl">\t Timed Mode</string>
+    <string name="infoButtonDescriptor">Instructions</string>
+    <string name="audioDescriptor">Turn audio on/off</string>
+
+    // Shared Preferences
+    <string name="sound">Sound</string>
+    <string name="timedMode">TimedMode</string>
+    <string name="numQuestions">NumQuestions</string>
+    <string name="questionIndex">QuestionIndex</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="score">Score</string>
+
+
+    // Messages
+    <string name="fetchingData">Fetching you a new question!</string>
+    <string name="fetchingScores">Reaching out to servers!</string>
+    <string name="waitMessage">Please wait</string>
+    <string name="timerLbl">Time remaining \t</string>
+    <string name="failiureMsg">Failed to fetch data</string>
+
+    // difficulty toast labels
+    <string name="toastDiffRandom">Difficulty set to random</string>
+    <string name="toastDiffEz">Difficulty set to easy</string>
+    <string name="toastDiffMed">Difficulty set to medium</string>
+    <string name="toastDiffHard">Difficulty set to hard</string>
+
+    // num questions toast labels
+    <string name="toastNumQuestions3">You will be asked 3 questions</string>
+    <string name="toastNumQuestions5">You will be asked 5 questions</string>
+    <string name="toastNumQuestions10">You will be asked 10 questions</string>
+    <string name="toastNumQuestions15">You will be asked 15 questions</string>
+    <string name="toastNumQuestions20">You will be asked 20 questions</string>
+
+    //timed mode toast label
+    <string name="timedModeOn">TimedMode activated</string>
+    <string name="timedModeOff">TimedMode deactivated</string>
+
+    //bundle lbls
+    <string name="timesUp">Times up</string>
+    <string name="answer">answer</string>
+    <string name="question">question</string>
+    <string name="scoreToPost">Score</string>
+
+    //high scores
+    <string name = "currentHighScore">Current Highscore: \t</string>
+    <string name = "heldBy">Held By: \t</string>
+    <string name = "noHighScore">Highscore has not been set \n Set one right now in timed mode!</string>
+    <string name = "newHighScore">You set a new HighScore!</string>
+    <string name = "notTimedMode">You set a new HighScore, but not in timed mode. Play in timed mode to post score!</string>
+
+</resources>
